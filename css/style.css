@@ -21,7 +21,8 @@ a {
 }
 
 body {
-	font-family: 'font', sans-serif;
+	/* font-family: 'font', sans-serif; */
+  font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -53,6 +54,13 @@ body {
 .div-modules-indents a{
   display: inline-block;
   padding: 24px 49px;
+  /* Сделать для ссылок Indents и Modules следующие стили:
+  толщина шрифта 700
+  размер шрифта 18 пикселей
+  цвет  - #3f2aff */
+  font-weight: 700;
+  font-size: 18px;
+  background-color:#3f2aff;
 }
 
 
@@ -60,6 +68,18 @@ body {
   display: inline-block;
   padding: 24px 49px;
 } */
+
+.index-download {
+  font-weight: 700;
+  font-size: 18px;
+  color:#3f2aff;
+  padding-left: 30px;
+  background-image: url("../img/download.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
 
 /* Обернуть все содержимое тега body в див с классом container, а также напишите для него следующие стили: */
 .container {
@@ -73,8 +93,34 @@ body {
 p {
   margin-bottom: 40px;
   width: 872px;
+  /* 2. Задать следующие стили для параграфов:
+толщина шрифта 400
+размер шрифта 20 пикселей
+межстрочный интервал 32 пикселя
+цвет текста #333 */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
 }
 
+.p-first-rule{
+  /* 3. Текст “Исходя из этого, можно сразу сформулировать первый принцип” в статье выделен синим фоном. Добавьте этому параграфу еще один класс, к которому нужно прописать следующие стили:
+радиус бордера 20 пикселей
+внутренние отступы - сверху и снизу по 50 пикселей, слева и справа по 95 пикселей
+ширину 100%
+толщину шрифта 700
+размер шрифта 30 пикселей
+цвет текста - белый
+цвет фона #3f2aff */
+border-radius: 20px;
+padding: 50px 95px;
+width: 100%;
+font-weight: 700;
+font-size: 30px;
+color: white;
+background-color: #3f2aff;
+}
 
 /* Сделать ширину у параграфов внутри серых блоков 692 пикселя, а отступ снизу - 10 пикселей. */
 
@@ -90,6 +136,16 @@ p {
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom:40px ;
+  /* 4. Добавьте для серых блоков фоновое изображение справа.
+Для этого добавьте каждому из блоков еще один класс,
+в котором будет только свойство background-image.
+А стили для позиционирования фона пропишите в основной класс. */
+  /* display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
 
 .content-results:last-child{
@@ -97,12 +153,33 @@ p {
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom:0 ;
+
+}
+
+/* 4. Добавьте для серых блоков фоновое изображение справа.
+Для этого добавьте каждому из блоков еще один класс,
+в котором будет только свойство background-image.
+А стили для позиционирования фона пропишите в основной класс. */
+.content-results-img{
+  background-image: url("../img/decorate-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Сделать для главного заголовка сайта отступ снизу 40 пикселей. */
 
 h1{
   margin-bottom: 40px;
+  /* 1. Задать следующие стили для главного заголовка:
+толщина шрифта 400
+размер шрифта 60 пикселей
+межстрочный интервал 60 пикселей
+цвет текста #333 */
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
 }
 
 /* Сделать для заголовков второго уровня отступ снизу 10 пикселей. */
