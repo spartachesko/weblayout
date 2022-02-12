@@ -235,7 +235,7 @@ ul li::marker {
   font-size: 20px;
   color:#3f2aff;
   border-bottom: 1px solid #3f2aff;;
-
+  padding-bottom: 0;
 }
 
 
