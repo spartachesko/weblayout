@@ -244,10 +244,16 @@ ul li::marker {
 отступ снизу 40 пикселей
 ширину 872 пикселя */
 
+/* 
+9. Задайте для элементов figure следующее css-правило:
+font-size: 0. Оно нужно, чтобы исправить отступ между
+подписью и изображением. */
+
 figure{
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
+  font-size: 0;
 }
 
 
@@ -256,6 +262,25 @@ figure{
 
 figure img{
   margin-bottom: 0;
+}
+
+
+/* 10. Задайте для описания изображения следующие стили
+(можно использовать вложенность):бордер толщиной 1 пиксель,
+сплошной, цвета #b6b6b6,при этом удалите бордер сверху
+внутренний отступ сверху и снизу 19 пикселей 
+толщина шрифта 400 размер
+шрифта 14 пикселей выравнивание текста по центру */
+
+figure figcaption{
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center ;
+  border-right: 1px solid #b6b6b6;
+  border-left: 1px solid #b6b6b6;
+  border-bottom: 1px solid #b6b6b6;
+  padding-top: 19px;
+  padding-bottom: 19px;
 }
 
 img{
