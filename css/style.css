@@ -236,6 +236,7 @@ ul li::marker {
   color:#3f2aff;
   border-bottom: 1px solid #3f2aff;;
   padding: 0;
+  width: fit-content;
 }
 
 
