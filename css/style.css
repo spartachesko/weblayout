@@ -136,6 +136,9 @@ background-color: #3f2aff;
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom:40px ;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
   /* 4. Добавьте для серых блоков фоновое изображение справа.
 Для этого добавьте каждому из блоков еще один класс,
 в котором будет только свойство background-image.
@@ -153,6 +156,9 @@ background-color: #3f2aff;
   padding: 30px;
   background-color: #f3f3f3;
   margin-bottom:0 ;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
 
 }
 
@@ -162,9 +168,7 @@ background-color: #3f2aff;
 А стили для позиционирования фона пропишите в основной класс. */
 .content-results-img{
   background-image: url("../img/decorate-1.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: aqua;
 }
 
 /* Сделать для главного заголовка сайта отступ снизу 40 пикселей. */
