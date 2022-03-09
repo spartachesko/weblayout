@@ -138,18 +138,11 @@ background-color: #3f2aff;
   margin-bottom:40px ;
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: cover;
+}
   /* 4. Добавьте для серых блоков фоновое изображение справа.
 Для этого добавьте каждому из блоков еще один класс,
 в котором будет только свойство background-image.
 А стили для позиционирования фона пропишите в основной класс. */
-  /* display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-}
 
 .content-results:last-child{
   border-radius: 20px;
@@ -158,17 +151,18 @@ background-color: #3f2aff;
   margin-bottom:0 ;
   background-repeat: no-repeat;
   background-position: right;
-  background-size: cover;
-
 }
 
 /* 4. Добавьте для серых блоков фоновое изображение справа.
 Для этого добавьте каждому из блоков еще один класс,
 в котором будет только свойство background-image.
 А стили для позиционирования фона пропишите в основной класс. */
-.content-results-img{
+.content-results-img1{
   background-image: url("../img/decorate-1.png");
-  background-color: aqua;
+}
+
+.content-results-img2{
+  background-image: url("../img/decorate-2.png");
 }
 
 /* Сделать для главного заголовка сайта отступ снизу 40 пикселей. */
