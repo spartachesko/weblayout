@@ -152,7 +152,7 @@ background-color: #3f2aff;
   margin-bottom:0 ;
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: auto;
+  background-size: 30% 100%;
 }
 
 /* 4. Добавьте для серых блоков фоновое изображение справа.
