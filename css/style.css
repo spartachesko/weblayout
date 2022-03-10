@@ -322,6 +322,7 @@ img{
 
 .list-cards li{
   list-style-type: none;
+  vertical-align: top
 }
 
 .list-cards h2 {
@@ -329,3 +330,6 @@ img{
   ;
 }
 
+.main-page {
+  color: #3f2aff;
+}
