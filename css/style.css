@@ -288,3 +288,21 @@ img{
 	/* max-width: 100%; */
   margin-bottom: 40px;
 }
+
+.holder {
+  width: 1170px;
+  margin-top: 50px;
+  margin-left: 375px;
+  margin-right: 376px;
+}
+
+.logo-skillbox {
+  display: block;
+}
+
+.card-desc {
+  display: inline-block;
+  width: 572px;
+  height: 505px;
+  border-style: solid;
+}
