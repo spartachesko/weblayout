@@ -295,6 +295,10 @@ img{
   margin-right: 376px;
 }
 
+.holder h1 {
+  color: #3F2AFF;
+}
+
 .logo-skillbox {
   display: block;
 }
@@ -324,3 +328,4 @@ img{
   color: #3F2AFF;
   ;
 }
+
