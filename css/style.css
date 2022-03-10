@@ -305,3 +305,8 @@ img{
   height: 505px;
   border-style: solid;
 }
+
+.list-cards {
+  margin-left: 0;
+  padding-left: 0;
+}
