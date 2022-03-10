@@ -310,3 +310,17 @@ img{
   margin-left: 0;
   padding-left: 0;
 }
+
+.list-cards ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.list-cards li{
+  list-style-type: none;
+}
+
+.list-cards h2 {
+  color: #3F2AFF;
+  ;
+}
