@@ -296,7 +296,13 @@ img{
 }
 
 .holder h1 {
+  margin-bottom: 50px;
   color: #3F2AFF;
+}
+
+.list-cards img {
+  margin-bottom: 25px;
+  width: 100%;
 }
 
 .logo-skillbox {
@@ -308,11 +314,13 @@ img{
   width: 572px;
   height: 505px;
   border-style: solid;
+  margin: 25px 25px 25px 0;
 }
 
 .list-cards {
   margin-left: 0;
   padding-left: 0;
+  display: inline-block;
 }
 
 .list-cards ul {
@@ -333,3 +341,4 @@ img{
 .main-page {
   color: #3f2aff;
 }
+
