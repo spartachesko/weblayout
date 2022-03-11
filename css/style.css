@@ -307,6 +307,7 @@ img{
 
 .logo-skillbox {
   display: block;
+  margin-bottom: 25px;
 }
 
 .card-desc {
@@ -318,8 +319,6 @@ img{
 }
 
 .list-cards {
-  margin-left: 0;
-  padding-left: 0;
   display: inline-block;
 }
 
@@ -335,10 +334,15 @@ img{
 
 .list-cards h2 {
   color: #3F2AFF;
-  ;
 }
 
 .main-page {
   color: #3f2aff;
+  padding: 0%;
+}
+
+.main-page svg{
+  margin-left: 0;
+  padding-left: 0;
 }
 
