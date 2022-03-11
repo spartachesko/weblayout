@@ -320,6 +320,10 @@ img{
   vertical-align: top;
 }
 
+.card-desc img{
+  margin-bottom: 25px;
+}
+
 .list-cards {
   display: inline-block;
 }
@@ -337,6 +341,7 @@ img{
   color: #3F2AFF;
   margin-bottom: 2px;
   margin-left: 25px;
+  margin-top: 0;
 }
 
 .main-page {
