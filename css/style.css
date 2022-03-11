@@ -315,7 +315,8 @@ img{
   width: 572px;
   height: 505px;
   border-style: solid;
-  margin: 25px 25px 25px 0;
+  margin-bottom: 25px;
+  margin-right: 10px;
   vertical-align: top;
 }
 
@@ -330,7 +331,6 @@ img{
 
 .list-cards li{
   list-style-type: none;
-  vertical-align: top
 }
 
 .list-cards h2 {
