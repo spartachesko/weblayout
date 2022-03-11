@@ -354,3 +354,11 @@ img{
   padding-left: 0;
 }
 
+.show-more {
+  border: 2px solid #3F2AFF;
+  color: #3f2aff;
+  width: 274px;
+  height: 70px;
+  padding: 25px 76px;
+}
+
