@@ -316,6 +316,7 @@ img{
   height: 505px;
   border-style: solid;
   margin: 25px 25px 25px 0;
+  vertical-align: top;
 }
 
 .list-cards {
