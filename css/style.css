@@ -316,8 +316,10 @@ img{
   height: 505px;
   border-style: solid;
   margin-bottom: 25px;
-  margin-right: 25px;
+  margin-right: 10px;
   vertical-align: top;
+  font-size: 0;
+  
 }
 
 .card-desc img{
@@ -326,6 +328,7 @@ img{
 
 .list-cards {
   display: inline-block;
+  
 }
 
 .list-cards ul {
