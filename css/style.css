@@ -325,7 +325,7 @@ img{
 }
 
 .list-cards ul {
-  margin-left: 0;
+  margin-left: 25px;
   padding-left: 0;
 }
 
@@ -336,6 +336,7 @@ img{
 .list-cards h2 {
   color: #3F2AFF;
   margin-bottom: 2px;
+  margin-left: 25px;
 }
 
 .main-page {
